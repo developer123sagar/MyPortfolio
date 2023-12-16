@@ -1,0 +1,29 @@
+.rounded-90{
+  border-radius: 80px;
+}
+
+.cursordot,
+.cursoroutline{
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 10;
+  pointer-events: none;
+  transition-property: opacity, transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.cursordot{
+  height: 10px;
+  width: 10px;
+  background: #f3a264;
+}
+
+.cursoroutline{
+  height: 30px;
+  width: 30px;
+  border: 2px solid #f3a264;
+}
